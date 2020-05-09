@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="PT">
+<head>
+	<title>Tarefa 01</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width-device-width, initial-scala-1">
+	<style>
+		* {
+			box-sizing: border-box;
+		}
+		body {
+			font-family: Arial, sans-serif;
+			text-align: justify;
+			margin: 0px 0px 0px 0px;
+			background-color: lightblue;
+
+		}
+		#banho {
+			float: left;
+			width: 21%;
+			margin-right: 2%;
+			margin-left: 7%;
+			margin-top: 2%;
+			
+		}
+		#banho2 {
+			padding: 1%;
+			font-size: 23px;
+			margin-right: 7%;
+			margin-left: 7%;
+			font-family: 'Hind Guntur', sans-serif;
+		}
+
+		#mhigiene {
+			text-align: center;
+			font-size: 35px;
+			
+		}
+		#fhigiene {
+			margin-right: 7%;
+			margin-left: 7%;
+			font-size: 25px;		
+		}
+		.higiene {
+			margin-left: 7%
+		}
+		#phsaude {
+			float: right;
+			margin-top: 2%;
+			margin-right: 7%;
+		}
+		#final{
+			background-color: red;
+			font-family: 'Hind Guntur', sans-serif;
+			color: white;
+			text-align: center;
+			margin: 25px 0px 0px 0px;
+
+		}
+		/*Style the Header*/
+		header{
+			background-color: green;
+			padding: 1px;
+			text-align: center;
+			font-size: 35px;
+			color: white;
+			margin: 0px 0px 0px 0px;
+		}
+		/*Cria duas colunas/caixas que flutuam perto uma da outra*/
+		
+		article {
+			float: left;
+			padding: 20px;
+			width: 100%;
+			background-color: #f1f1f1;
+			height: 300px
+		}
+
+		/* limpa os espaços vagos entre colunas */
+		section: after {
+			content: ;
+			display: table;
+			clear: both;
+		}
+		/*stylo do rodapé/footer*/
+		footer{
+			background-color: #777;
+			padding: 10px;
+			text-align: center;
+			color: white;
+		}
+		a {
+			text-decoration: none;
+			color: black;
+			font-size: 15px;
+		}
+		/* layout Responsivo - Faz duas colunas/ os blocos ficam em cima um do outro ao invés de um do lado do outro, em telas pequenas apenas */
+		@media ( max-width: 600px){
+			nav, article {
+				width: 100%;
+				height: auto;
+			}
+		}
+	</style>
+</head>
+<body>
+	<header>
+		<h2>Higiene</h2>	
+	</header>
+	<p id="fhigiene">A falta de higiene pessoal é um dos grandes problemas encontrados em algumas escolas, devido a deficiência de orientação e o desenvolvimento econômico dessas crianças, que interfere diretamente neste problema, deixando de ter esse autocuidado os alunos acabam tendo sua autoestima afetada e a proliferação de doenças pode ser potencializada, devido ao contato direto entre os mesmos.</p>
+	<header>
+		<h2>Banho</h2>	
+	</header>
+	<h1 id="mhigiene"></h1>
+	<img id ="banho" src="tomar banho.jfif">
+	<p id="banho2">Para se ter saúde, adotar bons hábitos de higiene é uma das medidas necessárias para tal. Dentre estes, o banho é um dos principais. A pele, o maior órgão do corpo humano, funciona como uma barreira natural contra a entrada de micro-organismos. Contendo diversas bactérias comensais, estas protegem a pele contra a entrada de outros seres vivos, causadores de doenças. Entretanto, quando a proliferação destas primeiras é acentuada (ou quando estas são drasticamente eliminadas), a pele pode ser danificada, permitindo a infestação, ou mesmo a infecção, destes outros organismos.<br>A principal causa desta superpopulação é a alteração do pH da pele. Suor, oleosidade excessiva e células mortas; além de poluentes, restos de comida e sujeiras em geral, são alguns dos fatores que propiciam esta alteração. O mau cheiro é um indicador de que tais mudanças estão ocorrendo.</p>
+	<header>
+		<h2>Lavar as Mãos</h2>	
+	</header>
+	<img id ="banho" src="lavar as mãos.jfif">
+	
+	<p id="fhigiene">Todos nós sabemos da importância de lavar as mãos após utilizar o banheiro e antes das refeições. Provavelmente, a maioria dos alunos já escutou centenas de vezes, seja em casa ou na escola, alguém pedindo para eles lavarem bem as mãos antes de comer. Mas mesmo assim, se pararmos para observar, muitos não possuem esse hábito, o que também é visto entre os adultos. <br> Para que os discentes compreendam a importância de se lavar bem as mãos, é necessário que eles já tenham conhecimento claro sobre os micro-organismos, sua importância e as doenças que esses seres vivos podem nos causar.</p>
+	<header>
+		<h2>Hábitos Saudáveis</h2>	
+	</header>
+	<iframe id="phsaude" class="higiene" width="430" height="240" src="https://www.youtube.com/embed/FPlpL8EBb4Y" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	<div id="banho2">
+		<li>Alimentação balanceada e nutritiva. </li>
+		<li>Prática regular de atividades físicas.</li>
+		<li> Atividades ao ar livre e contato com a natureza.</li>
+		<li>Não ter vícios.</li>
+		<li>Buscar se envolver em atividades sociais. </li>
+		<li>Controlar e, na medida do possível, evitar o estresse.</li>
+		<li>Valorizar a convivência social positiva.</li>
+		<li>Estimular o cérebro com atividades intelectuais.</li>
+		<li>Buscar ajuda de profissionais da saúde.</li>
+	</div>
+	
+		<h2 id="final">Elaborado pela Escola RTI</h2>	
+	
+</body>
+</html>

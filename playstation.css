@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style> 
+      div {
+      text-align: center;
+      }
+  		body {
+      }   
+      div.menu{ 
+      font-size: 25px;
+      text-align: center;
+      margin-left: 100%;
+      background-color: #4d4dff;
+      margin: 0px 0px 0px 0px;
+      font-family: 'Nunito', sans-serif;
+      height: 50px;
+      padding-top: 10px;
+      position: -webkit-sticky;
+      position: sticky;
+      top: 0;
+      }
+      div.menu a:hover{
+      background-color: #1a8cff;
+      width: 40px;
+      }
+      h1 {
+        text-align: center;
+        font-size: 40px;
+        margin-top: 2%;
+        margin-bottom: 2%;
+        margin-left: 25%;
+        margin-right: 25%;
+        font-family: 'Bowlby One SC', cursive;
+      }
+      p { 
+        text-align: justify;
+        font-size: 25px;
+        margin-left: 25%;
+        margin-right: 25%;
+        font-family: 'Montserrat', sans-serif;
+        color: black;
+        background-color: white;
+       }
+       @media ( max-width: 600px){
+        nav, article {
+          width: 100%;
+          height: auto;
+        }
+      }
+      img {      	
+        width: 20%;
+        height: 10%;        
+        margin-top: 12px;
+      }
+      #img{
+        width: 20%;
+        height: 10%;        
+        margin-top: 12px;
+        float: right;
+        margin-right: 26%;
+        margin-left: 1%;
+      }
+      #img2 {
+        width: 20%;
+        height: 10%;
+        float: right;
+        margin-right:2%;
+        margin-left: 2%;
+        margin-top: 12px;
+      }
+      .vertical-menu {
+        width: 170px;
+        margin-left: 2px;
+        position: -webkit-sticky;
+        position: sticky;
+        top: 11%;
+        margin-top: 9px;
+      }
+      .vertical-menu a {
+        background-color: white;
+        color: black;
+        display: block;
+        padding: 10px;
+        text-decoration: none;
+        margin-left: 
+      }
+      .vertical-menu a:hover {
+        background-color:#cccccc;        
+      }
+      .vertical-menu2 {
+        width: 170px;
+        margin-left: 9px;
+        position: -webkit-sticky;
+        position: sticky;
+        top: 11%;
+        margin-top: 9px;
+      }
+      .vertical-menu2 a {
+        background-color: white;
+        color: black;
+        display: block;
+        padding: 10px;
+        text-decoration: none;
+        margin-left: 
+      }
+      .vertical-menu2 a:hover {
+        background-color:#cccccc;        
+      }
+    </style>
+  </head>
+</html>
